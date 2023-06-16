@@ -1,0 +1,167 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Roboto:wght@100&family=Yanone+Kaffeesatz:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body {
+    font-family: 'Encode Sans Condensed',sans-serif !important;
+    text-align: -webkit-center;
+    font-size: 17px;
+    background: #fbfbfb;
+}
+
+h1 {
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #39598b;
+}
+
+
+.Decoracion {
+    border: 1px groove #586881;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 95%;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn {
+    color: #34508F;
+    border-color: #34508F;
+    margin: 5px
+}
+
+    .btn:hover {
+        color: white !important;
+        border-color: #34508F;
+        background: #34508F;
+    }
+
+input {
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+
+select {
+    width: 240px !important;
+    border-radius: 5px !important;
+    border: 1px solid !important;
+    text-align: center;
+}
+
+.breadcrumb {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+    .breadcrumb li {
+        display: inline;
+    }
+
+        .breadcrumb li:not(:last-child):after {
+            content: "›";
+            margin: 0 5px;
+            color: #ccc;
+        }
+
+        .breadcrumb li a {
+            color: #302c68;
+        }
+
+        .breadcrumb li.active {
+            color: #777;
+        }
+
+.columnas {
+    display: grid;
+    margin-bottom:15px;
+}
+
+.filas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lblSubtitulo {
+    font-size: 18px;
+    color: #302c68;
+    margin-bottom: 15px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+    .pagination li {
+        margin: 0 10px;
+    }
+
+    .pagination a {
+        padding: 5px 15px;
+        background-color: #f2f2f2;
+        color: #333;     
+        border-radius: 3px;
+    }
+
+        .pagination a:hover {
+            background-color: #ddd;
+        }
+
+.radio{
+    margin:10px
+}
+
+    .radio input {
+        height: auto !important;
+        width: auto !important;
+}
+
+.fila {
+    cursor: pointer;
+}
+
+
+.butoons{
+    margin-bottom:25px
+}
+
+.swal-text {
+    font-size: 18px !important;
+    text-align:center !important
+}
+
+.swal-title {
+    font-size: 30px !important
+}
+
+.swal-button {
+    background-color: #586881 !important;
+    font-size: 15px !important;
+}
+
+
+    .swal-button:hover {
+        background-color: white !important;
+        font-size: 15px !important;
+        color: #586881 !important;
+        border: 2px solid #586881 !important
+    }
+
+    .swal-button:focus {
+        box-shadow: none !important;
+    }
+
+.header {
+    color: #586881 !important
+}
+
